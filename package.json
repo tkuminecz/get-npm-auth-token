@@ -1,0 +1,16 @@
+{
+  "name": "get-npm-auth-token",
+  "version": "1.0.3",
+  "description": "CLI tool to get an NPM registry's auth token",
+  "repository": "git@github.com:tkuminecz/get-npm-auth-token.git",
+  "author": "Tim Kuminecz <tkuminecz@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "get-npm-auth-token": "src/index.js"
+  },
+  "dependencies": {
+    "registry-auth-token": "^3.3.1",
+    "yargs": "^8.0.1"
+  }
+}
